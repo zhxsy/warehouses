@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# For Mac OS X
+*~
+.DS_Store
+
+# For GoLand IDE
+.idea/
+
+# For Go vendor
+.cache/
+code/build/
+code/logs/
+code/logs
+code/go.sum
+.idea/
+.idea/*
+.git/
+.DS_Store
+code/vendor/
+pkg/
+bin/
+build/
+build/logs/
+.realize.yaml
+logs/*
+go.sum

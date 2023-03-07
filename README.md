@@ -1,1 +1,11 @@
-# zhxsy-warehouses
+##### 核心代码仓库
+
+#### 架构目录架构
+
+```
+app/ 项目启动时的核心配置
+helper/ 助手函数
+library/ 扩展、公用的包
+output/ 输入输出
+```
+
