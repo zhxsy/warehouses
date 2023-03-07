@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	c := mq.InitMQ(mq.AmqpURL, nil, nil, false)
+	c := mq.InitMQ(mq.AmqpURL, "", nil, nil, false)
 
 	c.DelayPublisherRegister(mq.DelayExchange, amqp.ExchangeFanout)
 

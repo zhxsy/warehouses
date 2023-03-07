@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	c := mq.InitMQ(mq.AmqpURL, nil, nil, false)
+	c := mq.InitMQ(mq.AmqpURL, "", nil, nil, false)
 
 	c.ConsumerRegister(mq.DelayExchange, mq.Key, mq.DefaultConsumer(mq.DelayQueue, mq.DelayQueue, mq.Qos), Consume)
 	c.ConsumerRegister(mq.DelayExchange, mq.Key, mq.DefaultConsumer(mq.DelayQueue1, mq.DelayQueue1, mq.Qos), Consume)
